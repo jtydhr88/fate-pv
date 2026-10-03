@@ -1,0 +1,17 @@
+[project]
+name = "fate-analysis"
+version = "0.1.0"
+description = "Score → note timings, rendered audio and envelopes for the fate-pv renderer"
+requires-python = ">=3.12"
+dependencies = [
+  "fonttools>=4.66.1",
+  "mido>=1.3",
+  "music21>=10.5.0",
+  "numpy>=2.0",
+  "scipy>=1.13",
+  "soundfile>=0.12",
+  "tinysoundfont>=0.3.7",
+]
+
+[tool.uv]
+package = false

@@ -1,0 +1,27 @@
+node_modules
+out
+.venv
+__pycache__
+analysis/.cache
+analysis/stems
+analysis/work
+# local, unpublished tooling (the md -> html / wechat / page-image renderer)
+tools-private/
+# transcription scratch: page renders and crops
+score/mozart40/*.png
+score/mozart40/heads-*.txt
+score/*/*.zip
+score/*.zip
+audio/*.wav
+score/beethoven9/*.png
+score/beethoven9/*.pdf
+.claude/
+
+# the making-of tutorial: kept local until it is reviewed
+tutorial/
+
+# this machine's own tool and sample-library paths (see analysis/paths.py)
+analysis/paths.local.json
+
+# IDE settings
+.idea/
